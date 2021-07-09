@@ -1,0 +1,26 @@
+{
+  "name": "@proof/gateway",
+  "version": "0.1.26",
+  "description": "D2C Hosted API Gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Pavel",
+  "private": true,
+  "license": "ISC",
+  "engines": {
+    "node": ">=12"
+  },
+  "dependencies": {
+    "altair-fastify-plugin": "^4.0.6",
+    "fastify": "^3.18.1",
+    "fastify-cors": "6.0.1",
+    "mercurius": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:d2cio/hosted-backend.git"
+  }
+}
